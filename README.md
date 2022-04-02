@@ -112,16 +112,24 @@ PCA stands for Principal Component Analysis. Principal Component Analysis is des
 </p>
 
 <p>
+ PCA libaries can be different from each other due to parameters and attributes. For sklearn, it has has many parameters and attributes and one of the attributes that were used in this example is n_components. N_components will determine how many columns will be splitted into. If n_components equals to three, three columns will be created and hold the inputs.  
+ </p>
+
+![PCA Code Example](https://github.com/samuelroiz/Advisory_Services_Team_Analyze/blob/main/images/machine_learning/pca_example_1.png)
+
+<p>
  
  </p>
 
 #### PCA Outcome
 
 <p>
-In this case
+In this case, PCA n_components equals point nine and it ended up having seventy-four columns. If n_components were equal to seventy-four, it will have the same outcome of seventy-four columns. However, the values will be barely different from each other. When n_components equal to .9, the first value is 0.0279317, and n_compnents equal to 74 has a value of 0.02793169. The value difference between the two is 0.00000001 (10 to the power of 7 x point 1). So either way will have the same output because of the number of columns produced. 
 </p>
 
-![PCA Code Example](https://github.com/samuelroiz/Advisory_Services_Team_Analyze/blob/main/images/machine_learning/pca_example_1.png)
+![PCA Variance Code Example](https://github.com/samuelroiz/Advisory_Services_Team_Analyze/blob/main/images/machine_learning/pca_example_3.png)
+
+### t-SNE
 
 <p>
 
