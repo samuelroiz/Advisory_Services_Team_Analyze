@@ -72,7 +72,7 @@ Here is an example of how pd.get_dummies() work.
 Now the <i> preview_get_dummies </i> data frame has numeric columns which means it meets the standards of machine learning models.
 </p>
 
-#### Get Dummies Outcome
+#### <u> Get Dummies Outcome </u>
 <p>
 Apply the get_dummies() code to the data frame and the data frame ends up having a shape of five hundred thirty-two and ninety-eight columns. 
 </p>
