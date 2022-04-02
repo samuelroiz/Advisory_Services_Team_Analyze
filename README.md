@@ -52,7 +52,7 @@ The old data frame had seven columns with one thousand two hundred fifty-two row
 ## Machine Learning Steps
 
 
-### <u> pd.get_dummies() </u>
+### Get_dummies() Section
 
 #### Example.
 
@@ -79,7 +79,7 @@ Apply the get_dummies() code to the data frame and the data frame ends up having
 
 ![Get Dummies Outcome](https://github.com/samuelroiz/Advisory_Services_Team_Analyze/blob/main/images/machine_learning/get_dummies_outcome.png)
 
-### Standard Scaler 
+### Standard Scaler Section
 
 #### How does the Standard scaler work and what is it doing to the data? 
 
