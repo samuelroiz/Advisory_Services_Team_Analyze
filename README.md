@@ -72,7 +72,7 @@ Here is an example of how pd.get_dummies() work.
 Now the <i> preview_get_dummies </i> data frame has numeric columns which means it meets the standards of machine learning models.
 </p>
 
-#### <u> Get Dummies Outcome </u>
+### Get Dummies Outcome
 <p>
 Apply the get_dummies() code to the data frame and the data frame ends up having a shape of five hundred thirty-two and ninety-eight columns. 
 </p>
@@ -95,7 +95,7 @@ To demonstrate the algorithm and how it functions, consider the data set {1,2,3,
   The following example takes all of the data points and converts them to a closer range of 0 to 1. Standard scaler helps prevent outliers and keep the data closer to each other rather than gaps. 
   </p>
 
-#### Standard Scaler Outcome 
+### Standard Scaler Outcome 
 
 <p>
  Apply the standard scaler code to the dummies' data frame to demonstrate the algorithm and drive the data closer to each other. 
@@ -103,9 +103,25 @@ To demonstrate the algorithm and how it functions, consider the data set {1,2,3,
 
 ![Standard Scaler X Values](https://github.com/samuelroiz/Advisory_Services_Team_Analyze/blob/main/images/machine_learning/standard_scaler_x_val.png)
 
+### PCA 
+
+#### How does the PCA work and what is it doing to the data? 
+
+<p>
+PCA stands for Principal Component Analysis. Principal Component Analysis is designed to reduce time and the use or operation of computers resources when dealing with massive datasets. PCA reduces the number of information dimensions. The PCA algorithm transforms a dense set of variables into a smaller one without counteracting the loss of information as much as possible. Keep in mind that the PCA is mainly used for dimensionality reduction, not for visualization.
+</p>
+
 <p>
  
+ </p>
+
+#### PCA Outcome
+
+<p>
+In this case
 </p>
+
+![PCA Code Example](https://github.com/samuelroiz/Advisory_Services_Team_Analyze/blob/main/images/machine_learning/pca_example_1.png)
 
 <p>
 
