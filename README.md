@@ -32,16 +32,16 @@ It is important to double-check if the code went through. In this case, the code
 ![Check null val. in data frame again](https://github.com/samuelroiz/Advisory_Services_Team_Analyze/blob/main/images/data_cleaning_and_filter/check_null_val_and_duplicates_again.png)
 
 <p>
-
+The data frame column isTrading has two boolean values. If a row is true then cryptocurrency is still trading. Else it is not actively trading. Due to the confusion of boolean values, the column will convert from boolean to integer values to avoid conflicts. One will be actively trading, zero will be no trading. After converting the column, the data frame is filtered to rows containing one. The company only wants cryptocurrencies that are currently trading. 
 </p>
 
-![]()
+![Filter data frame of Crypto Currencies still trading](https://github.com/samuelroiz/Advisory_Services_Team_Analyze/blob/main/images/data_cleaning_and_filter/filter_dataframe_to_isTrading_1_only_aka_true_only.png)
 
 <p>
-
+The data frame has a column named TotalCoinsMined and has some empty values or zero. The company only wants cryptocurrencies that have coins mined more than zero. Total coins mined are essential to avoid scams and reduce the risk of counterfeiting, duplicates, or repeating the same coin more than once. In this case, the data frame will filter out cryptocurrencies rows that have not been mined. 
 </p>
 
-![]()
+![Filter data frame of Crypto Mined greater than zero](https://github.com/samuelroiz/Advisory_Services_Team_Analyze/blob/main/images/data_cleaning_and_filter/filter_dataframe_to_crypto_mined_greater_than_0.png)
 
 <p>
 
