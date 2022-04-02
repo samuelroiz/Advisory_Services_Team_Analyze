@@ -44,10 +44,10 @@ The data frame has a column named TotalCoinsMined and has some empty values or z
 ![Filter data frame of Crypto Mined greater than zero](https://github.com/samuelroiz/Advisory_Services_Team_Analyze/blob/main/images/data_cleaning_and_filter/filter_dataframe_to_crypto_mined_greater_than_0.png)
 
 <p>
-
+The old data frame had seven columns with one thousand two hundred fifty-two rows. The clean data frame has four columns with five hundred thirty-two rows and active trading currencies. Column Unnamed: 0, IsTrading, and CoinName are dropped for machine learning. 
 </p>
 
-![]()
+![Clean Data frame outcome](https://github.com/samuelroiz/Advisory_Services_Team_Analyze/blob/main/images/final_clean_data_outcome_from_crypto_company.png)
 
 ## Machine Learning Steps
 
