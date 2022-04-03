@@ -131,9 +131,23 @@ In this case, PCA n_components equals point nine and it ended up having seventy-
 
 ### t-SNE
 
-<p>
+#### How does the t-SNE work and what is it doing to the data? 
 
+<p>
+t-SNE stands for t-distributed stochastic neighbor embedding. The t-distributed is a probability curve is generated, the stochastic is where results will be different each time, and neighbor embedding is similar data points become neighbors. t-SNE functions similarly to PCA where t-SNE reduces a dataset’s dimensions to 2 or 3. The difference is t-SNE sorts unlabeled data into clusters and is mainly used to visualize data. 
 </p>
+
+<p>
+  t-SNE libraries can be different from each other due to parameters and attributes. For sklearn, it has many parameters and attributes. One of the parameters used in this example is perplexity. Perplexity will determine the number of neighbors inputs in the 2 or 3 columns.  
+ </p>
+
+![t-SNE Code Example](https://github.com/samuelroiz/Advisory_Services_Team_Analyze/blob/main/images/machine_learning/tsne_example_1.png)
+
+#### t-SNE Outcome
+<p>
+ 
+ </p>
+
 
 
 <p>
