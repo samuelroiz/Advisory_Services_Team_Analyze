@@ -153,102 +153,26 @@ For this case, t-SNE has perplexity equal to thirty and merged into two columns.
 
 
 ### KMeans
+
+#### How does the Kmeans work and what is it doing to the data? 
+
+<p>
+ K-means is an unsupervised learning algorithm used to identify clusters and group the data into groups based on the distance measured to a centroid. A centroid is a data point that is the arithmetic mean position of all the values on a cluster. When the code is running, it will take steps. The first step is randomly initializing the k starting centroids. The second step is each data point assigned to the nearest centroid. The third step is to repeat the compute the centroids again as the average of the data plots assigned to the individual cluster. The final step is to repeat the first, second, and third steps again until the algorithm is finished. After applying the algorithm, the objective is to plot and find a slope in the graph. The slope should look like the second dip converging to a value. This is known as inertia.
+ </p>
+
+#### Kmeans Outcome
+
 <p>
 
 </p> 
 
-![]() <p> The following data frame is named <i> preview_get_dummies </i> displays two non-numeric columns. </p>
+![KMeans Code Example](https://github.com/samuelroiz/Advisory_Services_Team_Analyze/blob/main/images/machine_learning/k_means_example_1.png) 
 
 <p>
 
 </p>
 
-![]()
-
-<p>
-
-</p>
-
-<p>
-
-</p>
-
-![]()
-
-![]()
-
-<p>
-
-</p>
-
-![]()
-
-### LogisticRegression Model() and RandomForestClassifier() without StandardScaler
-
-
-<p>
-
-</p>
-
-![]() 
-
-<p>
- 
-</p>
-
-<p>
-
-</p>
-
-![]()
-
-<p>
-
-</p>
-
-### LogisticRegression Model() and RandomForestClassifier() with StandardScaler
-
-#### How does the Standard scaler work and what is it doing to the data? 
-
-<p> 
-</p>
-
-#### Example of Standard Scaler
-<p>
-
-</p>
-
-<p>
-
-  </p>
-
-![]()
-
-<p>
-
-</p>
-
-![]()
-
-<p>
-
-</p>
-
-![]() 
-
-<p>
-
-</p>
-
-### LogisticRegression Model() and RandomForestClassifier() Comparison
-
-<p>
-
-</p>
-
-<p>
-</p>
-
+![Elbow Plot](https://github.com/samuelroiz/Advisory_Services_Team_Analyze/blob/main/images/machine_learning/k_means_example_2.png)
 
 
 ## Contributing
