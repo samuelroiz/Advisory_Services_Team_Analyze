@@ -134,7 +134,7 @@ In this case, PCA n_components equals point nine and it ended up having seventy-
 #### How does the t-SNE work and what is it doing to the data? 
 
 <p>
-t-SNE stands for t-distributed stochastic neighbor embedding. The t-distributed is a probability curve is generated, the stochastic is where results will be different each time, and neighbor embedding is similar data points become neighbors. t-SNE functions similarly to PCA where t-SNE reduces a dataset’s dimensions to 2 or 3. The difference is t-SNE sorts unlabeled data into clusters and is mainly used to visualize data. 
+t-SNE stands for t-distributed stochastic neighbor embedding. The t-distributed is a probability curve is generated, the stochastic is where results will be different each time, and neighbor embedding is similar data points become neighbors. t-SNE functions similarly to PCA where t-SNE reduces a dataset’s dimensions to 2 or 3. The difference is t-SNE sorts unlabeled data into clusters and is mainly used to visualize data. The model parameters can produce different results drastically each time when run. This also applies to the visualizations that will not be the same. Reminder, the s in t-SNE is stochastic means random each time it runs. The visualization of the cluster sizes and distance between clusters do not necessarily represent actual sizes and distances.
 </p>
 
 <p>
@@ -144,12 +144,15 @@ t-SNE stands for t-distributed stochastic neighbor embedding. The t-distributed 
 ![t-SNE Code Example](https://github.com/samuelroiz/Advisory_Services_Team_Analyze/blob/main/images/machine_learning/tsne_example_1.png)
 
 #### t-SNE Outcome
+
 <p>
- 
+For this case, t-SNE has perplexity equal to thirty and merged into two columns. After fitting data, t-SNE fitted along PCA values allowing its values to be in their shape. Then plotted into a scatter plot. The plot shows multiple clusters and an outlier. The clusters are numerous plots that are clumped and a single point. The outlier is in the corner likely caused by the outliers in the data. The data most likely made an error with an integer. However, maybe it is not because one of the most mined and popular currencies is Bitcoin. According to research, bitcoin makes up at least sixty percent of the crypto market. From the following graph, there are four to five clusters. 
  </p>
 
+![t-SNE plot prex. 30]( https://github.com/samuelroiz/Advisory_Services_Team_Analyze/blob/main/images/machine_learning/tsne_example_3.png)
 
 
+### KMeans
 <p>
 
 </p> 
